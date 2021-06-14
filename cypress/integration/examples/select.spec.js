@@ -8,5 +8,7 @@ context('Keyboard Navigation', () => {
     cy.realPress('ArrowDown');
     cy.realPress('ArrowDown');
     cy.realPress('ArrowDown');
+    cy.realPress('Tab');
+    cy.realPress('Enter');
   });
 });

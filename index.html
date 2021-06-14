@@ -7,6 +7,14 @@
       outline: 1px solid red;
     }
   </style>
+
+  <script>
+    function clickMe() {
+      let select = document.getElementById('select');
+      let content = document.getElementById('content');
+      content.innerText = 'You selected ' + select.value;
+    }
+  </script>
 </head>
 <body>
   <h3>Select a Fruit</h3>
@@ -18,5 +26,7 @@
     <option value="4">Orange</option>
     <option value="5">Grape</option>
   </select>
+  <button onclick="clickMe()">Click Me</button>
+  <div id="content"></div>
 </body>
 </html>
