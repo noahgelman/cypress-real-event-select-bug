@@ -1,6 +1,6 @@
 {
   "name": "cypress-keyboard-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bugs with cypress-real-events",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^6.5.0",
-    "cypress-real-events": "^1.2.0",
+    "cypress": "^9.4.1",
+    "cypress-real-events": "^1.6.0",
     "lite-server": "^2.6.1"
   }
 }
